@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Results Summary Component" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Results Summary Component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="visually-hidden">Results Summary Component</h1>
+      <section class="main__result">
+        <h2 class="result__title">Your Result</h2>
+        <p class="result__score">
+          <span class="score__average">76</span>
+          <span class="score__total">of 100</span>
+        </p>
+        <div class="result__description">
+          <h3 class="description__title">Great</h3>
+          <p class="description__text">
+            Your performance exceed 65% of the people conducting the test here!
+          </p>
+        </div>
+      </section>
+      <section class="main__summary">
+        <h2 class="summary__title">Summary</h2>
+        <ul class="summary__list" role="list"></ul>
+        <button class="summary__btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
