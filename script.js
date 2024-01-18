@@ -18,7 +18,7 @@ function updateDOM(data) {
   const listItems = data
     .map(
       (item) => `
-    <li class="list__item list__item--${item.category.toLowerCase()}" role="listitem">
+    <li class="list__item list__item--${item.category.toLowerCase()}">
       <div class="item__category">
         <img src="${item.icon}" alt="${item.category}">
         <p class="category__name">${item.category}</p>
